@@ -11,31 +11,43 @@ html,body,#wrapper {
 
 .axis path,.axis line {
 	fill: none;
-	stroke: #000;
+	stroke: #ccc;
 	shape-rendering: crispEdges;
 }
 
 .bar {
 	fill: #33b5e5;
+	stroke: #000;
+	shape-rendering: crispEdges;
 }
 
 .bar-failed {
-	fill: #CC0000;
+	fill: #F5F9FD; 
+	stroke: #000;
+	shape-rendering: crispEdges;
 }
 
 .bar-running {
-	fill: #669900;
+	fill: #ccc;
+	stroke: #000;
+	shape-rendering: crispEdges;
+
 }
 
 .bar-succeeded {
 	fill: #33b5e5;
+	stroke: #000;
+	shape-rendering: crispEdges;
 }
 
 .bar-killed {
 	fill: #ffbb33;
+	stroke: #000;
+	shape-rendering: crispEdges;
+
 }
 
-#forkme_banner {
+/*#forkme_banner {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -69,4 +81,4 @@ html,body,#wrapper {
 	border-bottom-left-radius: 2px;
 	border-bottom-right-radius: 2px;
 	text-decoration: none;
-}
+}*/
